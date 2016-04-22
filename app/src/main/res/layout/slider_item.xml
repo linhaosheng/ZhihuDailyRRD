@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<android.support.v4.widget.ContentLoadingProgressBar
+    android:id="@+id/cpb_loading"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iv_slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:background="@drawable/bg_shadow_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_gravity="bottom"
+        android:alpha="0.8"
+        android:gravity="top"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:textColor="@color/color_head_text"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp" />
+</FrameLayout>

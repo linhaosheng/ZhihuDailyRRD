@@ -2,20 +2,12 @@
 ------
 ## 简介
 
-This simple example is created by RRD(Retrofit,RxJava,Dagger2).
+该项目使用(Retrofit,RxJava,Dagger2).
 
-这是一个使用Retrofit RxJava Dagger2创建的简单示例。
+这是一个使用Retrofit RxJava Dagger2创建的简单示例，纯属学习使用。
 
 minSdkVersion 21
 
-##项目结构
-
-![](https://github.com/lsxiao/ZhihuDailyRRD/blob/master/screenshot/structure.png?raw=true)
-
-
-## 截图
-
-![](https://github.com/lsxiao/ZhihuDailyRRD/blob/master/screenshot/Screenshot_20151116-231003.png?raw=true)
 
 ##API
 
